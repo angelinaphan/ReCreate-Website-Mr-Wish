@@ -1,0 +1,482 @@
+body {
+  background-color: #F9F7F3;
+  overflow-x: hidden;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+ position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  width: calc(190% + 1.3px);
+  height: 400px;
+}
+
+.wave1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* nav bar */
+.nav-link:active {
+  background-color: #EDEDDF;
+  color: #80727B;
+}
+
+a {
+  color: #F9F7F3;
+}
+
+.active {
+  color:  #F9F7F3;
+}
+
+.nav-link {
+  color:  #F9F7F3;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #80727B;
+  padding-top: 15px;
+}
+
+.topnav a {
+  color: #F9F7F3;
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #BBACC1;
+  color: #80727B;
+}
+
+.topnav-centered a:hover {
+  background-color: #80727B;
+  color: #C0CAAD;
+}
+
+.topnav a.active {
+  background-color: #F1DEDE ;
+  color:  #80727B;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color:#80727B;
+}
+
+.topnav-centered a {
+  float: left;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  color: #F1DEDE;
+  display: flex;
+}
+
+.topnav-right {
+  float: right;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  padding-right: 10px;
+  margin-top: -70px;
+  color: #F9F7F3;
+  position: relative;
+}
+
+.topnav-right i:hover {
+  color: #C0CAAD;
+}
+
+.nav-link:hover {
+    color: #F9F7F3;
+}
+
+/* pic and header */
+.pic {
+  float: left;
+  display: block;
+  padding-right: 10px;
+}
+
+.title {
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+}
+
+.welc1 {
+  color: #C0CAAD;
+}
+
+.welc2 {
+  color: #BBACC1;
+  font-size: 50px;
+}
+
+.welc3 {
+  color: #F9F7F3;
+}
+
+.welc1, .welc2, .welc3 {
+  padding-bottom: 10px;
+}
+
+.welc5 {
+  text-align: center;
+  color: #C0CAAD;
+  padding-bottom: 10px;
+}
+
+.welc6 {
+  color: #BBACC1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* button */
+.button {
+  background-color: #F1DEDE;
+  border: none;
+  color: #80727B;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.b1 {
+  padding-top: 10px;
+}
+
+.button:hover {
+  opacity: 1;
+  color: #F9F7F3;
+}
+
+.button {border-radius: 10px;}
+
+/* header below*/
+.welc {
+  text-align: center;
+  color: #C0CAAD;
+  margin-top: 10px;
+}
+
+.welc4 {
+  color: #BBACC1;
+  font-size: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* sub head + text */
+.sub1 {
+  color: #827965;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container1, .container2, .container3 {
+    justify-content: center;
+}
+
+.sub2 {
+  color: #928777;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 20px;
+}
+
+.sub3 {
+  color: #928777;
+  font-size: 20px;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* button - abt */
+.button1 {
+  background-color: #F1DEDE;
+  border: none;
+  color: #80727B;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button1:hover {
+  opacity: 1;
+  color: #F9F7F3;
+}
+
+.button1 {border-radius: 10px;}
+
+.b2 {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* footer */
+footer{
+  background-color: #80727B;
+  text-align: center;
+  color: #F9F7F3;
+  padding-top: 15px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.f1 {
+  color: #C0CAAD;
+  text-align: center;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+/* line */
+hr.line {
+  border: 3px solid #928777;
+}
+
+.line1 {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* drink header and text */
+.drink1 {
+  color: #827965;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.drink2 {
+  color:#928777;
+  padding-right: 250px;
+}
+
+.drink3 {
+  color: #80727B;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.drink4 {
+  color:#a696a0;
+  padding-right: 250px;
+}
+
+.drink5 {
+  color: #ecd0d0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.drink6 {
+  color:#DFBEB9;
+  padding-right: 250px;
+}
+
+.drink7 {
+  color: #aab497;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.drink8 {
+  color:#C0CAAD;
+  padding-right: 250px;
+}
+
+.drink9 {
+  color: #BBACC1;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.drink10 {
+  color:#cec0d3;
+  padding-right: 250px;
+}
+
+.drink11 {
+  color: #827965;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.drink12 {
+  color:#928777;
+  padding-right: 250px;
+}
+
+/* box */
+.box {
+  color: #F9F7F3;
+  background-color: #C0CAAD;
+  border: 3px;
+  padding-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  height: 200px; 
+}
+
+.box1 {
+  color: #F9F7F3;
+  background-color: #C0CAAD;
+  border: 3px;
+  padding-top: 25px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  height: 200px; 
+}
+
+.container4 {
+  justify-content: center;
+  padding-left: 70px;
+  padding-right: 40px;
+}
+
+/* home pic */
+.boba {
+  transform: rotate(10deg);
+  margin-top: -85px;
+  position: absolute;
+  float: right;
+  justify-content: center;
+}
+
+.boba1 {
+    justify-content: center;
+  padding-left: 195px;
+}
+
+/* abt pics */
+.bobaa {
+  transform: rotate(-1deg);
+  margin-top: 130px;
+  margin-left: 200px;
+  float: left;
+}
+
+.boba2 {
+  padding-left: -150px;
+  justify-content: center;
+}
+
+/* drinks nav */
+.drinksnav {
+  color: #80727B;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.drinksrow {
+  justify-content: center;
+}
+
+/* circle pic */ 
+.container6 {
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: center;
+  text-align: center;
+}
+
+.boba3 {
+  justify-content: center;
+}
+
+.boba4 {
+  justify-content: center;
+  border: 10px solid #827965;
+  border-radius: 150px;
+}
+
+.drink0 {
+  color: #928777;
+}
+
+.drink00 {
+  color: #a696a0;
+}
+
+.bobaaaa {
+  justify-content: center;
+  border: 10px solid #80727B;
+  border-radius: 150px;
+}
+
+.drink000 {
+  color: #DFBEB9;
+}
+
+.boba5 {
+  justify-content: center;
+  border: 10px solid #F1DEDE;
+  border-radius: 150px;
+}
+
+.drink0000 {
+  color: #C0CAAD;
+}
+
+.boba6 {
+  justify-content: center;
+  border: 10px solid #C0CAAD;
+  border-radius: 150px;
+}
+
+.drink00000 {
+  color: #cec0d3;
+}
+
+.boba7 {
+  justify-content: center;
+  border: 10px solid #BBACC1;
+  border-radius: 150px;
+}
